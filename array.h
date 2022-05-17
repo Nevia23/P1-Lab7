@@ -39,4 +39,6 @@ void resetF (int F[], int dimF);
      * POST: ogni elemento di F è inizializzato a 0.
      */
 
+void inserisci_in_array(int A[], int start_index, int end_index);
+
 #endif
