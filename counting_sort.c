@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include counting_sort.h
+#include "counting_sort.h"
 
 void counting_sort(int A[], int dim) {
 
@@ -18,7 +18,7 @@ void counting_sort(int A[], int dim) {
         while (F[i] > 0) {
             A[j] = i;
             F[i]--;
-            k++;
+            j++;
         }
     }
 }
