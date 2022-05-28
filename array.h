@@ -5,19 +5,16 @@
     Funzioni di utilità per array.
  */
 
+void scambia(int *a, int *b);
+    /*
+    * PRE: a e b puntatori a interi
+    * POST: scambia i valori degli oggetti puntati
+    */
 
 void copia_array(int A[], int B[], int dim);
     /*
         PRE: dim è il numero di elementi di A e B.
         POST: B è una copia di A
-     */
-
-
-void stampaArray(int A[], int dim);
-    /*
-     * PRE: A ha dimensione almeno dim
-     * POST: stampa a video gli elementi di A su 
-     * una riga separati da spazi e poi va a capo. 
      */
 
 int max_value(int A[], int dim);
@@ -40,5 +37,12 @@ void resetF (int F[], int dimF);
      */
 
 void inserisci_in_array(int A[], int start_index, int end_index);
+
+void stampaArray(int A[], int dim);
+    /*
+    * PRE: A ha dimensione almeno dim
+    * POST stampa a video gli elementi di A su 
+    * una riga separati da spazi e poi va a capo. 
+    */
 
 #endif

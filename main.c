@@ -16,11 +16,12 @@ int main() {
     int B[SIZE_A];
 
     stampaArray(A, SIZE_A);
-    /*
+    
     copia_array(A, B, SIZE_A);
     counting_sort(B, SIZE_A);
     stampaArray(B, SIZE_A);
 
+    /*
     copia_array(A, B, SIZE_A);
     mergeSort(B, 0, SIZE_A-1);
     stampaArray(B, SIZE_A);
